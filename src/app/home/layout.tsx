@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/Navbar/page";
+
 import React from "react"
 
 const HomeLayout = ({ children }: {

@@ -1,12 +1,16 @@
 import React from "react";
-import Sidebar from "@/components/Sidebar/page";
+import Sidebar from "@/components/Sidebar/page";   
 
 const Home = () => {
     return (
         <React.Fragment>
-            <Sidebar />
-            <div>
-                This will be the home component
+            <div className="flex">
+                <div className="flex-item">
+                    <Sidebar />
+                </div>
+                <div className="flex-item">
+                    This will be the home component
+                </div>
             </div>
         </React.Fragment>
     )
