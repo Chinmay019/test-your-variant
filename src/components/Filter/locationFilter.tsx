@@ -18,8 +18,8 @@ const LocationFilterComp = () => {
     const [mysore, setMysore] = useState(false)
 
     return (
-        <div className="w-[400px] h-[300px] flex align-center justify-center px-3">
-            <div className="w-[250px] rounded-lg px-3 border-2 border-rose-200 mt-8">
+        <div className="flex align-center justify-center">
+            <div className="w-[250px] rounded-lg border-2 border-rose-200 p-3">
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
