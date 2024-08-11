@@ -1,7 +1,7 @@
-import { Navbar } from "@/components/Navbar/page";
+import LoginPage from "@/components/Login/page";
 
-export default function Home () {
+export default function Home () {  
   return (
-      <Navbar />
-  );
+    <LoginPage />
+  )
 }
