@@ -6,10 +6,10 @@ const HomeLayout = ({ children }: {
     children: React.ReactNode
 }) => {
     return (
-        <div>
+        <React.Fragment>
             <Navbar />
             { children }
-        </div>
+        </React.Fragment>
     )
 }
 

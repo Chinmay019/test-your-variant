@@ -20,10 +20,10 @@ const BrandFilterComp = () => {
     }
     return (
         <div className="flex align-center justify-center">
-            <div className="w-[250px] rounded-lg border-2 border-indigo-500 p-3">
+            <div className="w-[250px] rounded-lg border-2 border-indigo-500 px-3">
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
-                        <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
+                        <input type="checkbox" className="checkbox checkbox-sm checkbox-accent" onClick={ (e) => {
                             setMarutiSelelcted(e.target.checked)
                         } } />
                         <span className="label-text">{ brandLabels.maruti }</span>
