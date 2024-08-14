@@ -8,7 +8,6 @@ const LoginPage = () => {
         margin: "auto",
         display: "flex",
         "align-items": "center",
-        "justify-content": "center"
     }
     return (
         <div style={ style }>

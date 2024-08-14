@@ -2,7 +2,7 @@ export const Navbar = () => {
     return (
         <div className="navbar bg-gray-300">
             <div className="navbar-start">
-                <a className="btn btn-ghost text-xl">Test Your Variant</a>
+                <a className="btn btn-ghost text-xl" href="/home">Test Your Variant</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

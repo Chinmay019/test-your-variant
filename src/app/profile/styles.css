@@ -1,0 +1,28 @@
+.profile-container {}
+
+.details-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
+
+.myInput {
+    color: black;
+    background: rgb(240, 240, 250) ;
+    box-sizing: border-box;
+    border-radius: 6px;
+    cursor: text;
+    margin: 0 10px;
+    border: 1px solid black;
+}
+
+.settings-container {
+    max-height: calc(100vh - 90px);
+}
+
+.sidebar {
+    max-width: calc(20% - 3px);
+    min-width: calc(20% - 3px);
+    margin-left: 20px;
+    border-right: 3px solid black;
+    overflow: hidden;
+}

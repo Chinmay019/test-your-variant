@@ -7,7 +7,7 @@ const CarTile = ({ car }: {
 
     return (
         <div>
-            <div className="card bg-success w-96 m-5">
+            <div className="card bg-success w-96 my-2 h-[200px]">
                 <div className="card-body">
                     <h2 className="card-title">{car.name}</h2>
                     <span className='font-semibold'>

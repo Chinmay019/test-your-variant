@@ -6,7 +6,7 @@ import FuelFilterComp from "../Filter/fuelFilter";
 
 const Sidebar = () => {
     return (
-        <div className="lg:h-[100vh] md:h-[95vh] w-[375px] border-2 border-gray-300 md:rounded-md lg:rounded-lg mx-8 mt-2">
+        <div className="h-[80vh] overflow-auto w-[375px] border-2 border-gray-300 md:rounded-md lg:rounded-lg mx-8 mt-2">
             <div className="flex flex-col justify-around items-center">
                 <div className="">
                     <label className="label">

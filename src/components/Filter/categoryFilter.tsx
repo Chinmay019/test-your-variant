@@ -17,7 +17,7 @@ const CategoryFilterComp = () => {
 
     return (
         <div className="flex align-center justify-center">
-            <div className="w-[250px] rounded-lg border-2 border-rose-200 px-3">
+            <div className="w-[250px] px-3">
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
