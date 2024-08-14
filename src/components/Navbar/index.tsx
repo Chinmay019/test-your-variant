@@ -1,6 +1,6 @@
 export const Navbar = () => {
     return (
-        <div className="navbar bg-base-300">
+        <div className="navbar bg-gray-300">
             <div className="navbar-start">
                 <a className="btn btn-ghost text-xl">Test Your Variant</a>
             </div>
@@ -10,7 +10,7 @@ export const Navbar = () => {
                     <li>
                         <details>
                             <summary>Services</summary>
-                            <ul className="p-2 menu xl:menu-horizontal bg-base-0 rounded-box lg:min-w-max">
+                            <ul className="p-2 menu xl:menu-horizontal bg-base-200 z-10 rounded-box lg:min-w-max absolute">
                                 <div >
                                     <li className="max-content"><a>List Your Car</a></li>
                                     <li><a>Contact Us</a></li>
@@ -37,12 +37,11 @@ export const Navbar = () => {
                             tabIndex={ 0 }
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             <li>
-                                <a className="justify-between">
+                                <a className="justify-between" href="/profile">
                                     Profile
                                     <span className="badge">New</span>
                                 </a>
                             </li>
-                            <li><a>Settings</a></li>
                             <li><a>Logout</a></li>
                         </ul>
                     </div>
