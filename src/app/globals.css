@@ -28,3 +28,8 @@ body {
     text-wrap: balance;
   }
 }
+
+input {
+  color: rgb(var(--background-start-rgb));
+  background-color: rgb(243 244 248);
+}
