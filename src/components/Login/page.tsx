@@ -7,7 +7,7 @@ const LoginPage = () => {
     const style = {
         margin: "auto",
         display: "flex",
-        "align-items": "center",
+        "alignItems": "center",
     }
     return (
         <div style={ style }>

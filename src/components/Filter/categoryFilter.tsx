@@ -23,25 +23,25 @@ const CategoryFilterComp = () => {
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setCSUV(e.target.checked)
                         } } />
-                        <span className="label-text">{ categoryLabels.csuv }</span>
+                        <span className="text-md font-normal">{ categoryLabels.csuv }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setSUV(e.target.checked)
                         } } />
-                        <span className="label-text">{ categoryLabels.suv }</span>
+                        <span className="text-md font-normal">{ categoryLabels.suv }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setSedan(e.target.checked)
                         } } />
-                        <span className="label-text">{ categoryLabels.sedan }</span>
+                        <span className="text-md font-normal">{ categoryLabels.sedan }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setHatch(e.target.checked)
                         } } />
-                        <span className="label-text">{ categoryLabels.hatch }</span>
+                        <span className="text-md font-normal">{ categoryLabels.hatch }</span>
                     </label>
                 </div>
             </div>

@@ -25,31 +25,31 @@ const LocationFilterComp = () => {
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setBangalore(e.target.checked)
                         } } />
-                        <span className="label-text">{ locationLabels.bangalore }</span>
+                        <span className="text-md font-normal">{ locationLabels.bangalore }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setMysore(e.target.checked)
                         } } />
-                        <span className="label-text">{ locationLabels.mysore }</span>
+                        <span className="text-md font-normal">{ locationLabels.mysore }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setHyderabad(e.target.checked)
                         } } />
-                        <span className="label-text">{ locationLabels.hyderabad }</span>
+                        <span className="text-md font-normal">{ locationLabels.hyderabad }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setMumbai(e.target.checked)
                         } } />
-                        <span className="label-text">{ locationLabels.mumbai }</span>
+                        <span className="text-md font-normal">{ locationLabels.mumbai }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setDelhi(e.target.checked)
                         } } />
-                        <span className="label-text">{ locationLabels.delhi }</span>
+                        <span className="text-md font-normal">{ locationLabels.delhi }</span>
                     </label>
                 </div>
             </div>

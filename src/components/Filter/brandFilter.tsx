@@ -26,31 +26,31 @@ const BrandFilterComp = () => {
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setMarutiSelelcted(e.target.checked)
                         } } />
-                        <span className="label-text">{ brandLabels.maruti }</span>
+                        <span className="text-md font-normal">{ brandLabels.maruti }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setTataSelelcted(e.target.checked)
                         } } />
-                        <span className="label-text">{ brandLabels.tata }</span>
+                        <span className="text-md font-normal">{ brandLabels.tata }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setHondaSelelcted(e.target.checked)
                         } } />
-                        <span className="label-text">{ brandLabels.honda }</span>
+                        <span className="text-md font-normal">{ brandLabels.honda }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setMahindraSelelcted(e.target.checked)
                         } } />
-                        <span className="label-text">{ brandLabels.mahindra }</span>
+                        <span className="text-md font-normal">{ brandLabels.mahindra }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setSkodaSelelcted(e.target.checked)
                         } } />
-                        <span className="label-text">{ brandLabels.skoda }</span>
+                        <span className="text-md font-normal">{ brandLabels.skoda }</span>
                     </label>
                 </div>
             </div>

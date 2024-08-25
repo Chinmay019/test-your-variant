@@ -1,6 +1,6 @@
 export const Navbar = () => {
     return (
-        <div className="navbar bg-gray-300">
+        <div className="navbar bg-zinc-300">
             <div className="navbar-start">
                 <a className="btn btn-ghost text-xl" href="/home">Test Your Variant</a>
             </div>

@@ -7,7 +7,7 @@ const CarTile = ({ car }: {
 
     return (
         <div>
-            <div className="card bg-success w-96 my-2 h-[200px]">
+            <div className="flex card card-side bg-[#E6E8EC] w-96 my-4 h-[200px] border-2 border-stone-500">
                 <div className="card-body">
                     <h2 className="card-title">{car.name}</h2>
                     <span className='font-semibold'>

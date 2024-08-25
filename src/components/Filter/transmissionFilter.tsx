@@ -19,13 +19,13 @@ const TransmissionFilterComp = () => {
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setAuto(e.target.checked)
                         } } />
-                        <span className="label-text">{ transmissionLabels.auto }</span>
+                        <span className="text-md font-normal">{ transmissionLabels.auto }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setManual(e.target.checked)
                         } } />
-                        <span className="label-text">{ transmissionLabels.manual }</span>
+                        <span className="text-md font-normal">{ transmissionLabels.manual }</span>
                     </label>
                 </div>
             </div>

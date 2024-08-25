@@ -19,13 +19,13 @@ const FuelFilterComp = () => {
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setDiesel(e.target.checked)
                         } } />
-                        <span className="label-text">{ fuelTypeLabels.diesel }</span>
+                        <span className="text-md font-normal">{ fuelTypeLabels.diesel }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
                             setPetrol(e.target.checked)
                         } } />
-                        <span className="label-text">{ fuelTypeLabels.petrol }</span>
+                        <span className="text-md font-normal">{ fuelTypeLabels.petrol }</span>
                     </label>
                 </div>
             </div>
