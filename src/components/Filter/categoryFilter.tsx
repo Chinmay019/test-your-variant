@@ -10,10 +10,7 @@ const CategoryFilterComp = () => {
         hatch: "Hatchback",
     }
 
-    const [suv, setSUV] = useState(false)
-    const [csuv, setCSUV] = useState(false)
-    const [sedan, setSedan] = useState(false)
-    const [hatch, setHatch] = useState(false)
+    const [vehicleType, setVehicleType] = useState("")
 
     return (
         <div className="flex align-center justify-center">
@@ -21,25 +18,25 @@ const CategoryFilterComp = () => {
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setCSUV(e.target.checked)
+                            setVehicleType(categoryLabels.csuv)
                         } } />
                         <span className="text-md font-normal">{ categoryLabels.csuv }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setSUV(e.target.checked)
+                            setVehicleType(categoryLabels.suv)
                         } } />
                         <span className="text-md font-normal">{ categoryLabels.suv }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setSedan(e.target.checked)
+                            setVehicleType(categoryLabels.sedan)
                         } } />
                         <span className="text-md font-normal">{ categoryLabels.sedan }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setHatch(e.target.checked)
+                            setVehicleType(categoryLabels.hatch)
                         } } />
                         <span className="text-md font-normal">{ categoryLabels.hatch }</span>
                     </label>

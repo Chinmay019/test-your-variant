@@ -8,8 +8,7 @@ const TransmissionFilterComp = () => {
         manual: "Manual"
     }
 
-    const [auto, setAuto] = useState(false)
-    const [manual, setManual] = useState(false)
+    const [transmission, setTransmission] = useState("");
 
     return (
         <div className="flex align-center justify-center">
@@ -17,13 +16,13 @@ const TransmissionFilterComp = () => {
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setAuto(e.target.checked)
+                            setTransmission(transmissionLabels.auto)
                         } } />
                         <span className="text-md font-normal">{ transmissionLabels.auto }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setManual(e.target.checked)
+                            setTransmission(transmissionLabels.manual)
                         } } />
                         <span className="text-md font-normal">{ transmissionLabels.manual }</span>
                     </label>

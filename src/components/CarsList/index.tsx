@@ -16,8 +16,8 @@ const CarsListComp = ({ filter }: { filter: string }) => {
         <div>
             {carsData?.map((car) => {
                 return (
-                    <div>
-                        <CarTile car={car} key={car.id}/>
+                    <div key={car.id}>
+                        <CarTile car={car}/>
                     </div>
                 )
             })}

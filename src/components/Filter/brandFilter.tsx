@@ -1,15 +1,9 @@
 "use client";
 
-import { FormControlLabel, FormGroup } from "@mui/material";
-import Checkbox from "@mui/material/Checkbox";
 import { useState } from "react";
 
 const BrandFilterComp = () => {
-    const [tataSelected, setTataSelelcted] = useState(false)
-    const [skodaSelected, setSkodaSelelcted] = useState(false)
-    const [mahindraSelected, setMahindraSelelcted] = useState(false)
-    const [hondaSelected, setHondaSelelcted] = useState(false)
-    const [marutiSelected, setMarutiSelelcted] = useState(false)
+    const [brand, setBrand] = useState("");
 
     const brandLabels = {
         tata: "Tata",
@@ -24,31 +18,31 @@ const BrandFilterComp = () => {
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setMarutiSelelcted(e.target.checked)
+                            setBrand(brandLabels.maruti)
                         } } />
                         <span className="text-md font-normal">{ brandLabels.maruti }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setTataSelelcted(e.target.checked)
+                            setBrand(brandLabels.tata)
                         } } />
                         <span className="text-md font-normal">{ brandLabels.tata }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setHondaSelelcted(e.target.checked)
+                            setBrand(brandLabels.honda)
                         } } />
                         <span className="text-md font-normal">{ brandLabels.honda }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setMahindraSelelcted(e.target.checked)
+                            setBrand(brandLabels.mahindra)
                         } } />
                         <span className="text-md font-normal">{ brandLabels.mahindra }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setSkodaSelelcted(e.target.checked)
+                            setBrand(brandLabels.skoda)
                         } } />
                         <span className="text-md font-normal">{ brandLabels.skoda }</span>
                     </label>

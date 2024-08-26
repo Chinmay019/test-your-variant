@@ -8,8 +8,7 @@ const FuelFilterComp = () => {
         petrol: "Petrol"
     }
 
-    const [diesel, setDiesel] = useState(false)
-    const [petrol, setPetrol] = useState(false)
+    const [fuelType, setFuelType] = useState("");
 
     return (
         <div className="flex align-center justify-center">
@@ -17,13 +16,13 @@ const FuelFilterComp = () => {
                 <div className="form-control">
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setDiesel(e.target.checked)
+                            setFuelType(fuelTypeLabels.diesel)
                         } } />
                         <span className="text-md font-normal">{ fuelTypeLabels.diesel }</span>
                     </label>
                     <label className="cursor-pointer label justify-start gap-4">
                         <input type="checkbox" className="checkbox checkbox-accent" onClick={ (e) => {
-                            setPetrol(e.target.checked)
+                            setFuelType(fuelTypeLabels.petrol)
                         } } />
                         <span className="text-md font-normal">{ fuelTypeLabels.petrol }</span>
                     </label>
