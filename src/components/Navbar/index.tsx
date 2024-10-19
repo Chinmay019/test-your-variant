@@ -10,7 +10,7 @@ export const Navbar = () => {
                     <li>
                         <details>
                             <summary>Services</summary>
-                            <ul className="p-2 menu xl:menu-horizontal bg-base-200 z-10 rounded-box lg:min-w-max absolute">
+                            <ul className="p-2 menu xl:menu-horizontal bg-base-100 text-slate-400 z-10 rounded-box lg:min-w-max absolute">
                                 <div >
                                     <li className="max-content"><a>List Your Car</a></li>
                                     <li><a>Contact Us</a></li>
