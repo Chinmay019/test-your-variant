@@ -6,14 +6,14 @@ export const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>All Cars</a></li>
+                    <li><a href="/home">All Cars</a></li>
                     <li>
-                        <details>
+                        <details className="dropdown dropdown-end">
                             <summary>Services</summary>
-                            <ul className="p-2 menu xl:menu-horizontal bg-base-100 text-slate-400 z-10 rounded-box lg:min-w-max absolute">
+                            <ul tabIndex={0} className="p-2 menu menu-sm dropdown-content bg-base-100 text-slate-400 z-[1] rounded-box lg:min-w-max">
                                 <div >
-                                    <li className="max-content"><a>List Your Car</a></li>
-                                    <li><a>Contact Us</a></li>
+                                    <li className="dropdown-item"><a>Sign Up</a></li>
+                                    <li className="dropdown-item"><a href="/about-us">About Us</a></li>
                                 </div>
                             </ul>
                         </details>
